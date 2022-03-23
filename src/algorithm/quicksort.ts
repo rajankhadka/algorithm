@@ -3,6 +3,7 @@ function partition(arr: number[], low: number, high: number): number {
   let i = low - 1;
 
   for (let j = low; j < high; j++) {
+      
     if (arr[j] < pivot) {
       i++;
       //swap
